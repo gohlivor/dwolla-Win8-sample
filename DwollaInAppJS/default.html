@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dwolla In-App Javascript</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- DwollaInAppJS references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/dwollaSDK/js/jquery.js"></script>
+    <script src="/dwollaSDK/js/dwollaAPICore.js"></script>
+</head>
+<body>
+    <div style="margin: 50px;">
+        <h3>Sample for using the Dwolla In-App Purchase SDK</h3>
+        <div>
+            <button id="payButton">Pay with Dwolla</button>
+            <button id="logout">Logout</button>
+        </div>
+        <div>
+            <p>Transaction Id:</p>
+            <p id="transactionId"></p>
+            <br />
+        </div>
+        <div>
+            <div id="dwolla_paynow"></div>
+        </div>
+    </div>
+</body>
+</html>

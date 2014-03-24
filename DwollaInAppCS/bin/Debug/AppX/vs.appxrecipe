@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRDCHRIS</Machine>
+    <WindowsUser>Chris</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>0072F0FC0090AC1652ED09463AFCA530BC45268AFB940B5A1DBF9EBD84AAE3DC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>92b80a91-147e-4075-a69d-86794ef64b80_1.0.0.0_neutral__h37gyvpph0nvj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>92b80a91-147e-4075-a69d-86794ef64b80_h37gyvpph0nvj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>92b80a91-147e-4075-a69d-86794ef64b80</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Chris</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-24T13:41:03.380</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaInAppCS.exe">
+      <PackagePath>DwollaInAppCS.exe</PackagePath>
+      <Modified>2014-03-24T13:41:02.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaInAppCS.pdb">
+      <PackagePath>DwollaInAppCS.pdb</PackagePath>
+      <Modified>2014-03-24T13:41:02.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Dwolla.InAppSDK.1.0.0.0\lib\win\Dwolla.InAppSDK.winmd">
+      <PackagePath>Dwolla.InAppSDK.winmd</PackagePath>
+      <Modified>2014-03-24T13:12:53.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-03-24T13:12:53.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-03-24T13:12:53.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\coffee.jpg">
+      <PackagePath>Assets\coffee.jpg</PackagePath>
+      <Modified>2014-03-24T13:40:48.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T02:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\DwollaSDK\arrow.png">
+      <PackagePath>DwollaSDK\arrow.png</PackagePath>
+      <Modified>2014-03-24T13:13:04.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\ReadMe.txt">
+      <PackagePath>ReadMe.txt</PackagePath>
+      <Modified>2014-03-24T13:13:04.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-03-24T13:40:14.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T22:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaSDK\UcSendMoney.xaml">
+      <PackagePath>DwollaSDK\UcSendMoney.xaml</PackagePath>
+      <Modified>2014-03-24T13:13:04.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-03-24T13:40:52.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-24T13:41:03.137</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

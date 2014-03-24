@@ -1,0 +1,17 @@
+﻿.page_send section[role=main] {
+    -ms-grid-columns: 120px 250px 25px 770px;
+}
+
+.page_send #send-box {
+    -ms-grid-column: 4;
+}
+
+.avatar_placeholder {
+        width:100%;
+    max-width:100px;
+}
+
+.amount {
+    width: 320px;
+    display: inline-block;
+}

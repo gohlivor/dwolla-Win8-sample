@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRDCHRIS</Machine>
+    <WindowsUser>Chris</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaInAppCS.exe">
+      <PackagePath>DwollaInAppCS.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaInAppCS.pdb">
+      <PackagePath>DwollaInAppCS.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Dwolla.InAppSDK.1.0.0.0\lib\win\Dwolla.InAppSDK.winmd">
+      <PackagePath>Dwolla.InAppSDK.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Microsoft.Net.Http.2.2.18\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\coffee.jpg">
+      <PackagePath>Assets\coffee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\DwollaSDK\arrow.png">
+      <PackagePath>DwollaSDK\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\ReadMe.txt">
+      <PackagePath>ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\DwollaSDK\UcSendMoney.xaml">
+      <PackagePath>DwollaSDK\UcSendMoney.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

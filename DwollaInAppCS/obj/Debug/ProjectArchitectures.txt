@@ -1,0 +1,1 @@
+C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\DwollaInAppCS.csproj;neutral

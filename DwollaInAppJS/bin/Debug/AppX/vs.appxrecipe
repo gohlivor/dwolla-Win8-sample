@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRDCHRIS</Machine>
+    <WindowsUser>Chris</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>C2698C2090FE7017D8709B95C0AF6B61FE8D85850E2DD977BA67DDABB9E90849</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>cdc19132-6464-49a5-9a3e-fbcf02c2a1ab_1.0.0.0_neutral__h37gyvpph0nvj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>cdc19132-6464-49a5-9a3e-fbcf02c2a1ab_h37gyvpph0nvj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>cdc19132-6464-49a5-9a3e-fbcf02c2a1ab</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Chris</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-24T14:46:19.790</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\packages\Dwolla.InAppSDK.JS.1.0.0.3\lib\win\Dwolla.InAppSDK.winmd">
+      <PackagePath>Dwolla.InAppSDK.winmd</PackagePath>
+      <Modified>2014-03-24T14:45:11.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-03-24T14:33:02.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\pages\confirm.html">
+      <PackagePath>dwollaSDK\pages\confirm.html</PackagePath>
+      <Modified>2014-03-24T14:45:12.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\pages\review.html">
+      <PackagePath>dwollaSDK\pages\review.html</PackagePath>
+      <Modified>2014-03-24T14:45:12.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\pages\send.html">
+      <PackagePath>dwollaSDK\pages\send.html</PackagePath>
+      <Modified>2014-03-24T14:52:16.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\css\common.css">
+      <PackagePath>dwollaSDK\css\common.css</PackagePath>
+      <Modified>2014-03-24T14:45:13.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\css\confirm.css">
+      <PackagePath>dwollaSDK\css\confirm.css</PackagePath>
+      <Modified>2014-03-24T14:45:13.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\css\default.css">
+      <PackagePath>dwollaSDK\css\default.css</PackagePath>
+      <Modified>2014-03-24T14:45:13.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\css\review.css">
+      <PackagePath>dwollaSDK\css\review.css</PackagePath>
+      <Modified>2014-03-24T14:45:13.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\css\send.css">
+      <PackagePath>dwollaSDK\css\send.css</PackagePath>
+      <Modified>2014-03-24T14:45:13.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-06-05T08:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\images\arrow.png">
+      <PackagePath>dwollaSDK\images\arrow.png</PackagePath>
+      <Modified>2014-03-24T14:45:13.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-05T08:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-05T08:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-05T08:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-05T08:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\js\confirm.js">
+      <PackagePath>dwollaSDK\js\confirm.js</PackagePath>
+      <Modified>2014-03-24T14:45:13.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\js\dwollaAPICore.js">
+      <PackagePath>dwollaSDK\js\dwollaAPICore.js</PackagePath>
+      <Modified>2014-03-24T14:45:12.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\js\jquery.js">
+      <PackagePath>dwollaSDK\js\jquery.js</PackagePath>
+      <Modified>2014-03-24T14:45:12.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\js\review.js">
+      <PackagePath>dwollaSDK\js\review.js</PackagePath>
+      <Modified>2014-03-24T14:45:12.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\dwollaSDK\js\send.js">
+      <PackagePath>dwollaSDK\js\send.js</PackagePath>
+      <Modified>2014-03-24T14:45:12.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-03-24T14:29:37.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2014-03-24T14:45:15.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\ReadMe.txt">
+      <PackagePath>ReadMe.txt</PackagePath>
+      <Modified>2014-03-24T14:45:11.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-24T14:29:56.820</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20789</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

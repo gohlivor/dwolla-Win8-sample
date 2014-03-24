@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Dwolla.InAppSDK.JS</id>
+    <version>1.0.0.3</version>
+    <title>Dwolla In-App SDK for Windows 8 (Javascript)</title>
+    <authors>Dwolla</authors>
+    <owners>Dwolla</owners>
+    <licenseUrl>https://www.dwolla.com/tos</licenseUrl>
+    <projectUrl>http://github.com/</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/7a6ee7ba4334ebbb36ecdc862e8d535a</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Add Dwolla In App payments to your Windows 8 Metro applications</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <language />
+    <tags>Dwolla Windows8 In-App Payments SDK</tags>
+  </metadata>
+</package>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dwolla | Transaction Confirmed</title>
+    
+    <!-- Dwolla/home references -->
+    <link href="/dwollasdk/css/confirm.css" rel="stylesheet">
+    <link href="/dwollasdk/css/common.css" rel="stylesheet">
+    <script src="/dwollasdk/js/confirm.js"></script>
+</head>
+<body>
+    <!--Content-->
+    <div class="fragment page_send_confirm">
+        <header aria-label="Header content" role="banner">
+            <h1 class="titlearea win-type-ellipsis"><span class="pagetitle">Send Money</span></h1>
+        </header>
+
+        <section aria-label="Main content" role="main">
+
+            <div class="box">
+                <div class="win-template win-groupheader">
+                    <p class="group-title win-type-x-large"><span class="text">Confirmed</span></p>
+                </div>
+                
+                <div id="confirm" class="send_form tx_form">
+                    <div class="avatars">
+                        <img src="" alt="" class="from avatar_placeholder" />
+                        <span class="arrow"></span>
+                        <p>sent $<span id="amount"></span></p>
+                        <span class="arrow right"></span>
+                        <img src="" alt="" class="to avatar_placeholder" />
+                    </div>
+
+                    <p class="desc">Success! You sent money to <span class="to"></span>.</p>
+
+                    <div class="actions">
+                        <button type="button" id="close">close</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,247 @@
+﻿.appgrid, .appgrid .pagecontrol, .appgrid .pagecontrol .fragment {
+    width: 100%;
+    height: 100%;
+}
+
+    .appgrid .pagecontrol, .appgrid .pagecontrol .fragment {
+    }
+
+        .appgrid .pagecontrol .fragment {
+            display: -ms-grid;
+            -ms-grid-columns: 1fr;
+            -ms-grid-rows: 120px 1fr;
+            overflow-x: auto;
+        }
+
+header[role=banner] {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-columns: 120px 1fr;
+    -ms-grid-rows: 1fr;
+    display: -ms-grid;
+    background: #f9f9f9;
+    color: #ff7404;
+}
+
+    header[role=banner] .win-backbutton {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        margin-left: 39px;
+        margin-top: 59px;
+        color: #ff7404;
+        border-color: #ff7404;
+    }
+
+    header[role=banner] .titlearea {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+        margin-top: 37px;
+    }
+
+        header[role=banner] .titlearea .chevron {
+            vertical-align: 8px;
+        }
+
+    header[role=banner] .titlecontainer:hover {
+        color: #fe9500;
+    }
+
+    header[role=banner] .titlecontainer:active {
+        color: #fe9500;
+    }
+
+    header[role=banner] .pagesubtitle {
+        margin-left: 0px;
+    }
+
+    header[role=banner] .chevron {
+        font-family: "Segoe UI Symbol";
+        margin-left: 12px;
+    }
+
+section[role=main] {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-columns: 120px (420px 30px)[5];
+    -ms-grid-rows: 1fr;
+    display: -ms-grid;
+    overflow-x: auto;
+    position: relative;
+}
+
+a, a:visited {
+    color: #ff7404;
+}
+
+.box {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.avatar_placeholder {
+        width:100%;
+    max-width:100px;
+}
+
+.details_table_box {
+    padding: 10px 0 0;
+}
+
+    .details_table_box p:nth-of-type(odd) {
+        background: #f7f7f7;
+    }
+
+    .details_table_box p {
+        font-size: 15px;
+        padding: 5px 5px 6px;
+        margin: 0;
+    }
+
+        .details_table_box p span:first-child {
+            display: inline-block;
+            width: 150px;
+        }
+
+        .details_table_box p span.val {
+        }
+
+.actions {
+    text-align: right;
+    padding: 20px 0 5px;
+}
+
+    .actions button {
+        background: #ff7404;
+        padding: 5px 20px;
+        margin: 0 0 0 10px;
+        color: #fff;
+        border: 0;
+    }
+
+        .actions button.left {
+            float: left;
+            margin: 0 10px 0 0;
+        }
+
+.loader {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    .loader progress {
+        color: #389aa3;
+    }
+
+        .loader progress.white {
+        }
+
+        .loader progress.orange {
+        }
+
+.tx_form {
+    background: #f3f3f3;
+}
+
+    .tx_form .avatars {
+        position: relative;
+        text-align: center;
+        display: -ms-flexbox;
+        -ms-flex-direction: row;
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+    }
+
+        .tx_form .avatars img {
+            display: inline-block;
+            height: 100px;
+            /*width: 100px;*/
+            max-width: 100px;
+        }
+
+            .tx_form .avatars img.from {
+            }
+
+            .tx_form .avatars img.to {
+            }
+
+        .tx_form .avatars .arrow {
+            display: inline-block;
+            background: url('/dwollaSDK/images/arrow.png') no-repeat 50% 50%;
+            height: 100px;
+            width: 31px;
+            padding: 0 15px;
+        }
+
+            .tx_form .avatars .arrow.right {
+            }
+
+        .tx_form .avatars p {
+            font-size: 18px;
+        }
+
+    .tx_form .input {
+        position: relative;
+        padding: 10px 5px;
+        border-bottom: 1px solid #e2ddd2;
+    }
+
+        .tx_form .input label {
+            display: inline-block;
+            width: 100px;
+            padding-left: 10px;
+            color: #333;
+        }
+
+        .tx_form .input input {
+            width: 300px;
+            border: 1px solid #e9e9e9;
+            margin-right: 20px;
+        }
+
+        .tx_form .input .contact_picker {
+            color: #ff7404;
+        }
+
+        .tx_form .input input.error {
+            border-color: red;
+        }
+
+        .tx_form .input select {
+            width: 300px;
+            border: 1px solid #e9e9e9;
+            margin-right: 20px;
+        }
+
+        .tx_form .input textarea {
+            width: 275px;
+            border: 1px solid #e9e9e9;
+            margin-right: 20px;
+        }
+
+        .tx_form .input p {
+            display: inline-block;
+            color: #777;
+            font-size: 13px;
+            width: 300px;
+        }
+
+    .tx_form .extra {
+    }
+
+        .tx_form .extra a {
+            display: inline-block;
+            padding: 10px 15px;
+            color: #389aa3;
+        }
+
+        .tx_form .extra .more {
+            display: none;
+        }
+
+    .tx_form .actions {
+        padding: 20px;
+    }
+
+        .tx_form .actions button {
+        }
