@@ -2,5 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\chris\AppData\Local\Temp\DwollaInAppJS_refcache</ReferenceCachePath>
+    <AutoRefresh>false</AutoRefresh>
   </PropertyGroup>
 </Project>
