@@ -13,3 +13,18 @@ C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bld\Debu
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bld\Debug\pri.resfiles
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bld\Debug\LanguageQualifiers.txt
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppJS\bld\Debug\ProjectArchitectures.txt
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Debug\resources.pri
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Debug\AppxManifest.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Debug\DwollaInAppJS.build.appxrecipe
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Debug\Dwolla.InAppSDK.winmd
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\DwollaInAppJS.jsprojResolveAssemblyReference.cache
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\priconfig.xml.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\layout.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\resources.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\pri.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\priconfig.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\layout.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\resources.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\pri.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\LanguageQualifiers.txt
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Debug\ProjectArchitectures.txt

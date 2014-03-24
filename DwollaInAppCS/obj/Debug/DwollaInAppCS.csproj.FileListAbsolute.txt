@@ -35,3 +35,40 @@ C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\obj\Debu
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\obj\Debug\DwollaSDK\UcSendMoney.g.cs
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\obj\Debug\DwollaSDK\UcSendMoney.xaml
 C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\obj\Debug\DwollaInAppCS.csproj.GenerateResource.Cache
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\DwollaInAppCS.exe
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\DwollaInAppCS.pdb
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\resources.pri
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\AppxManifest.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\DwollaInAppCS.build.appxrecipe
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\Dwolla.InAppSDK.winmd
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaInAppCS.csprojResolveAssemblyReference.cache
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\App.g.i.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\App.g.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaSDK\UcSendMoney.g.i.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaSDK\UcSendMoney.g.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\MainPage.g.i.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\MainPage.g.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\App.xaml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\Common\StandardStyles.xaml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaSDK\UcSendMoney.xaml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\MainPage.xaml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaInAppCS.exe
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaInAppCS.pdb
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\DwollaInAppCS.csproj.GenerateResource.Cache
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\priconfig.xml.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\layout.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\resources.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\pri.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\priconfig.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\layout.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\resources.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\pri.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\LanguageQualifiers.txt
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\obj\Debug\ProjectArchitectures.txt

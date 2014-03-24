@@ -1,1 +1,1 @@
-C:\Workspace\Far Reach - Custom Software\DwollaSDKSamples\DwollaInAppCS\DwollaInAppCS.csproj;neutral
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppCS\DwollaInAppCS.csproj;neutral
