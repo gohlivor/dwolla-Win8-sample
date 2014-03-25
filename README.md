@@ -12,25 +12,25 @@ Adding the package from NuGet
 The NuGet Package will be installed and you will notice a couple of items in the project.
 - References now include:  Dwolla.InAppSDK
 
-For XAML apps:
+###For XAML apps
+
 - A new folder "DwollaSDK" has been added to your project.  This folder contains a user control that you can use in your project that performs the in-app purchase functionality.  It can be customized by the developer.
 - References:
 	System.Net.Http.Extensions
 	System.Net.Http.Primitives
 
-For Javascript apps:
+###For Javascript apps
+
 - A new folder "dwollaSDK" has been added to your project.  This folder contains a html, Javascript, and CSS files that you can use in your project that performs the in-app purchase functionality.  It can be customized by the developer.
 
 Getting Started - Create a Dwolla application
 =============================================
-To use the SDK you will need to register a free Dwolla application.  To do this go here: www.dwolla.com/applications
-
-Be sure to request the following "scopes" when registering your application.
-  Balance
-  AccountInfoFull
-  Send
-  Funding
-  Transactions
+To use the SDK you will need to register a free Dwolla application.  To do this go here: www.dwolla.com/applications.  Be sure to request the following "scopes" when registering your application.
+- Balance
+- AccountInfoFull
+- Send
+- Funding
+- Transactions
 
 Once your application is registered and approved you will have an App Key and App Secret.  You will need these in the SDK.
 
@@ -38,35 +38,43 @@ Once your application is registered and approved you will have an App Key and Ap
 Code updates for your project - XAML apps
 =========================================
 There are two main things you need to add to your project:
-1. Reference to the Dwolla.InAppSDK.SendMoneyHelper class.
-2. Implementing the UcSendMoney user control.
+- Reference to the Dwolla.InAppSDK.SendMoneyHelper class.
+- Implementing the UcSendMoney user control.
 
-SendMoneyHelper class:
-1. Add the following using statements in your page/control:
 
+##SendMoneyHelper class
+
+- Add the following using statements in your page/control:
+
+```
 	using Dwolla.InAppSDK;
 	using Dwolla.InAppSDK.Models;
+```
 
-2. Add the following constants and private variables in your page/control:
+- Add the following constants and private variables in your page/control:
 
+```
 	private SendMoneyHelper _sendMoneyHelper;
 
-	//Enter your App Key & Secret here
+	//Enter your App Key and Secret here
 	private const string AppKey = "";
 	private const string AppSecret = "";
 
 	//MerchantId is the Dwolla ID of the merchant who will receive the funds.
 	private const string MerchantId = "111-222-3333";
+```
 
-3. Using the SendMoneyHelper Class  
+### Using the SendMoneyHelper Class  
+
 Once the user is ready to pay via an in-app purchase SDK you need to make sure the user has authenticated via Dwolla.  To do this follow these steps:
 
-a) Create a new instance of the SendMoneyHelper class 
-b) Call the AuthenticateUser method.  
-c) If the response is successful then initialize the UcSendMoney user control by passing in the instance of the SendMoneyHelper class and the amount the user needs to pay.
+- Create a new instance of the SendMoneyHelper class
+- Call the AuthenticateUser method.
+- If the response is successful then initialize the UcSendMoney user control by passing in the instance of the SendMoneyHelper class and the amount the user needs to pay.
 
 When creating the instance of the SendMoneyHelper class you have the option to allow all types of funding sources or to limit funding sources to real-time only.  To limit to real-time only pass in false.
 
+```
 	public MainPage()
 	{
 		InitializeComponent();
@@ -91,24 +99,30 @@ When creating the instance of the SendMoneyHelper class you have the option to a
 			UcSendMoney.Visibility = Visibility.Visible;
 		}
 	}
+```
 
-4. Events associated with UcSendMoney.  There are two event associated with UcSendMoney:
+###Events associated with UcSendMoney
+ 
+There are two event associated with UcSendMoney:
 
-a) SendMoneyComplete: The user successfully sent money to the merchant via Dwolla.  The user control returns the transaction id, which could then be used to get details about that transaction.
+- SendMoneyComplete: The user successfully sent money to the merchant via Dwolla.  The user control returns the transaction id, which could then be used to get details about that transaction.
 
+```
 	private void SendMoneyComplete(object sender, string e)
 	{
 		//Here is the transactionId
 		string transactionId = e;
 		GetTransactionByID(transactionId);
 	}
+```
 
-b) CloseSendMoney:  The user cancels out of the user control.  Typically you will want to hide the user control.
+- CloseSendMoney:  The user cancels out of the user control.  Typically you will want to hide the user control.
 
+```
 	private void CloseSendMoney(object sender, string e)
 	{
 	}
-
+```
 
 Code updates for your project - Javascript apps
 ===============================================
@@ -118,21 +132,26 @@ You should have a dwollaSDK folder in your project once you install the NuGet pa
 default.html
 - Add a reference to javascript files:
 
+```
 	<script src="/dwollaSDK/js/jquery.js"></script>
 	<script src="/dwollaSDK/js/dwollaAPICore.js"></script>
+```
 
 default.js
 - Add the following variables.
 
+```
 	//MerchantId is the Dwolla ID of the merchant who will receive the funds.
 	var merchantId = "111-222-3333";
 
 	//Enter your App Key & Secret here
 	var appKey = "";
 	var appSecret = "";
+```
 
 - Create instance of the DwollaAPI class in the app.onactivated event.
 
+```
 	app.onactivated = function (args) {
 		if (args.detail.kind === activation.ActivationKind.launch) {
 			if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
@@ -157,17 +176,21 @@ default.js
 			}));
 		}
 	};
+```
 
 When clicking on the Pay with Dwolla button you will want to do the following:
 
 - Set the amount to charge:
 
+```
 	DwollaAPI.setAmount(0.01);
+```
 
 - Call the payWithDwolla function
 
+```
 	DwollaAPI.payWithDwolla
-
+```
 
 Available Methods via SendMoneyHelper
 =====================================
