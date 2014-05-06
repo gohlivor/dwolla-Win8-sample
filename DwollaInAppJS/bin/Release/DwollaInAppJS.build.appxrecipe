@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FRDCHRIS</Machine>
+    <WindowsUser>Chris</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\packages\Dwolla.InAppSDK.JS.1.0.0.3\lib\win\Dwolla.InAppSDK.winmd">
+      <PackagePath>Dwolla.InAppSDK.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\pages\confirm.html">
+      <PackagePath>dwollaSDK\pages\confirm.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\pages\review.html">
+      <PackagePath>dwollaSDK\pages\review.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\pages\send.html">
+      <PackagePath>dwollaSDK\pages\send.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\common.css">
+      <PackagePath>dwollaSDK\css\common.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\confirm.css">
+      <PackagePath>dwollaSDK\css\confirm.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\default.css">
+      <PackagePath>dwollaSDK\css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\review.css">
+      <PackagePath>dwollaSDK\css\review.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\send.css">
+      <PackagePath>dwollaSDK\css\send.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\images\arrow.png">
+      <PackagePath>dwollaSDK\images\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\confirm.js">
+      <PackagePath>dwollaSDK\js\confirm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\dwollaAPICore.js">
+      <PackagePath>dwollaSDK\js\dwollaAPICore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\jquery.js">
+      <PackagePath>dwollaSDK\js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\review.js">
+      <PackagePath>dwollaSDK\js\review.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\send.js">
+      <PackagePath>dwollaSDK\js\send.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\ReadMe.txt">
+      <PackagePath>ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20789</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

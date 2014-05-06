@@ -19,9 +19,18 @@
             $('#amount').text(DwollaAPIHelpers.currencyFormat(DwollaAPIHelpers.parseMoney(DwollaAPI.getAmount())));
             DwollaAPI.getMerchantAccount().then(
                 function (response) {
-                    $('#toid').text(response.id);
-                    $('#toname').text(response.name);
-                    $('#to_avatar_placeholder').attr("src", response.avatar);
+                    if (response != null) {
+                        $('#toid').text(response.id);
+                        $('#toname').text(response.name);
+                        $('#to_avatar_placeholder').attr("src", response.avatar);
+                    } else {
+                        DwollaAPIHelpers.alert("Invalid Merchant Account.", function () {
+                            var host = document.getElementById("dwolla_paynow");
+                            host.winControl && host.winControl.unload && host.winControl.unload();
+                            WinJS.Utilities.empty(host);
+                            DwollaAPI.eventCancel();
+                        });
+                    }
                 });
             DwollaAPI.getBalance().then(function (bal) {
                 if (bal != null)

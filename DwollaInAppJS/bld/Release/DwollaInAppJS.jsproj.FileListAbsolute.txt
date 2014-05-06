@@ -1,0 +1,15 @@
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\resources.pri
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\AppxManifest.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\DwollaInAppJS.build.appxrecipe
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Release\Dwolla.InAppSDK.winmd
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\DwollaInAppJS.jsprojResolveAssemblyReference.cache
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\priconfig.xml.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\layout.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\resources.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\pri.resfiles.intermediate
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\priconfig.xml
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\layout.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\resources.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\pri.resfiles
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\LanguageQualifiers.txt
+C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bld\Release\ProjectArchitectures.txt

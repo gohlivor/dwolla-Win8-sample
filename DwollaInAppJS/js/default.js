@@ -7,6 +7,8 @@
 
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
+
+    //Dwolla Merchant ID to receive payments
     var merchantId = "111-222-3333";
 
     //Enter your App Key & Secret here
