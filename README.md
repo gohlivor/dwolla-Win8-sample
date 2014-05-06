@@ -150,7 +150,7 @@ There are two event associated with UcSendMoney:
 
 You should have a dwollaSDK folder in your project once you install the NuGet package.  You will need to make the following updates to get things wired up.
 
-default.html
+###default.html
 - Add a reference to javascript files:
 
 ```
@@ -158,7 +158,27 @@ default.html
 	<script src="/dwollaSDK/js/dwollaAPICore.js"></script>
 ```
 
-default.js
+- Add content to the body.  Here is an example:
+
+```
+    <div style="margin: 50px;">
+        <h3>Sample for using the Dwolla In-App Purchase SDK</h3>
+        <div>
+            <button id="payButton">Pay with Dwolla</button>
+            <button id="logout">Logout</button>
+        </div>
+        <div>
+            <p>Transaction Id:</p>
+            <p id="transactionId"></p>
+            <br />
+        </div>
+        <div>
+            <div id="dwolla_paynow"></div>
+        </div>
+    </div>
+```
+
+###default.js
 - Add the following variables.
 
 ```
@@ -170,7 +190,7 @@ default.js
 	var appSecret = "";
 ```
 
-- Create instance of the DwollaAPI class in the app.onactivated event.
+- Create instance of the DwollaAPI class in the app.onactivated event and add the callbacks
 
 ```
 	app.onactivated = function (args) {
@@ -197,6 +217,14 @@ default.js
 			}));
 		}
 	};
+
+    //Dwolla SDK event callbacks
+    function dwollaSuccessHandler(e) {
+        console.log("Dwolla payment success: TransactionId = " + e.message + " at " + e.time.toLocaleString());
+    }
+    function dwollaCancelHandler(e) {
+        console.log("Dwolla payment cancelled at " + e.time.toLocaleString());
+    }
 ```
 
 When clicking on the Pay with Dwolla button you will want to do the following:
