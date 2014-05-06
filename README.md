@@ -2,8 +2,7 @@ Dwolla In-App SDK Samples
 =============================
 The purpose of this SDK is to make it easy for developers to use Dwolla within your Windows 8 Store applications for in-app purchases.  The SDK works for both Windows 8 and 8.1 store apps.  There are two versions of the SDK - one for Javascript apps and one for XAML apps.
 
-Adding the package from NuGet
-=============================
+##Adding the package from NuGet
 1. Create a new Windows 8 Store application or open an existing application.
 2. Open the NuGet Package Manager (right-click on the Windows Store project and select "Manage NuGet Packages".
 3. Make sure you select "Online" on the left and search online for "Dwolla In-App SDK".
@@ -23,8 +22,8 @@ The NuGet Package will be installed and you will notice a couple of items in the
 
 - A new folder "dwollaSDK" has been added to your project.  This folder contains a html, Javascript, and CSS files that you can use in your project that performs the in-app purchase functionality.  It can be customized by the developer.
 
-Getting Started - Create a Dwolla application
-=============================================
+##Getting Started - Create a Dwolla application
+
 To use the SDK you will need to register a free Dwolla application.  To do this go here: www.dwolla.com/applications.  Be sure to request the following "scopes" when registering your application.
 - Balance
 - AccountInfoFull
@@ -35,14 +34,13 @@ To use the SDK you will need to register a free Dwolla application.  To do this 
 Once your application is registered and approved you will have an App Key and App Secret.  You will need these in the SDK.
 
 
-Code updates for your project - XAML apps
-=========================================
+##Code updates for your project - XAML apps
 There are two main things you need to add to your project:
 - Reference to the Dwolla.InAppSDK.SendMoneyHelper class.
 - Implementing the UcSendMoney user control.
 
 
-##SendMoneyHelper class
+###MainPage.xaml.cs - reference the SendMoneyHelper class
 
 - Add the following using statements in your page/control:
 
@@ -68,9 +66,33 @@ There are two main things you need to add to your project:
 
 Once the user is ready to pay via an in-app purchase SDK you need to make sure the user has authenticated via Dwolla.  To do this follow these steps:
 
+- Add the UcSendMoney user control to your page/control
 - Create a new instance of the SendMoneyHelper class
 - Call the AuthenticateUser method.
 - If the response is successful then initialize the UcSendMoney user control by passing in the instance of the SendMoneyHelper class and the amount the user needs to pay.
+
+###MainPage.xaml
+In the MainPage.xaml (or your page/control) add the namespace to the SDK.
+
+```
+<Page
+    x:Class="DwollaInAppCS.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dwollaSdk="using:DwollaInAppCS.DwollaSDK"
+    mc:Ignorable="d">
+```
+Then include the UcSendMoney control somewhere on your page/control.  
+
+```
+    <StackPanel x:Name="SpPayNow">
+        <dwollaSdk:UcSendMoney x:Name="UcSendMoney" Visibility="Collapsed" />
+    </StackPanel>
+```
+
+###MainPage.xaml.cs
 
 When creating the instance of the SendMoneyHelper class you have the option to allow all types of funding sources or to limit funding sources to real-time only.  To limit to real-time only pass in false.
 
@@ -124,8 +146,7 @@ There are two event associated with UcSendMoney:
 	}
 ```
 
-Code updates for your project - Javascript apps
-===============================================
+##Code updates for your project - Javascript apps
 
 You should have a dwollaSDK folder in your project once you install the NuGet package.  You will need to make the following updates to get things wired up.
 
@@ -192,8 +213,7 @@ When clicking on the Pay with Dwolla button you will want to do the following:
 	DwollaAPI.payWithDwolla
 ```
 
-Available Methods via SendMoneyHelper
-=====================================
+##Available Methods via SendMoneyHelper
 
 - AuthenticateUser: Authenticates user for the application
 
