@@ -211,6 +211,7 @@ You should have a dwollaSDK folder in your project once you install the NuGet pa
 				$(document).on("DwollaCancel", dwollaCancelHandler);
 
 				//Initialize the DwollaAPI
+		                DwollaAPI.setAmount(0.01);
 				DwollaAPI.initialize(appKey, appSecret, merchantId, true);
 
 				logout.addEventListener("click", DwollaAPI.logout, false);
