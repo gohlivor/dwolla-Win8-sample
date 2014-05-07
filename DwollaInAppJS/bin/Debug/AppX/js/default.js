@@ -13,6 +13,13 @@
     var appKey = "IzZkTkfDzR+trPREvpfJYwx+TyN9fU50uB8WyTZEjNVmmiYPmM";
     var appSecret = "brRRLFWi4hPnZXVNzzpecDxFlO5QcnXR+TOcyNGa4nZj6MSmTk";
 
+    ////Dwolla Merchant ID to receive payments
+    //var merchantId = "111-222-3333";
+
+    ////Enter your App Key & Secret here
+    //var appKey = "";
+    //var appSecret = "";
+
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {

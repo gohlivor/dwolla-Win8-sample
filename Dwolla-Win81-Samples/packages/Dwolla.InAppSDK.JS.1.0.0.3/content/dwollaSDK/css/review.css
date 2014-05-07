@@ -1,0 +1,42 @@
+﻿.page_send_review section[role=main] {
+    -ms-grid-columns: 120px 250px 25px 770px;
+}
+
+.page_send_review .box {
+    width: 500px;
+    -ms-grid-column: 4;
+}
+
+#review {
+    padding: 20px;
+}
+    #review .avatars {
+                width:100%;
+    max-width:100px;
+    }
+    #review .desc {
+        color: #555;
+        font-size: 14px;
+    }
+    #review .info {
+
+    }
+        #review .info .left {
+            float: left;
+            width: 50%;
+        }
+        #review .info .right {
+            float: right;
+            width: 50%;
+        }
+        #review .info p {
+            color: #555;
+            font-size: 14px;
+        }
+            #review .info p span:first-child {
+                font-weight: bold;
+            }
+    #review .fine {
+        font-size: 11px;
+        color: #555;
+    }

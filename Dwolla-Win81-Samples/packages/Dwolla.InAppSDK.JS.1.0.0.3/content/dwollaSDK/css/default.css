@@ -1,0 +1,56 @@
+﻿#contenthost {
+    background: #ececec url('/images/noise.png') repeat;
+}
+
+.group-title {
+    color: #777;
+}
+
+.appbar {
+    background: #769b9f;
+}
+    .appbar button {
+        color: #fff;
+    }
+    .appbar #cmd-deposit-money .win-commandimage {
+        background: url('/images/send.png') no-repeat 50% 50%;
+    }
+    .appbar #cmd-withdraw-money .win-commandimage {
+        background: url('/images/request.png') no-repeat 50% 50%;
+    }
+    .appbar #cmd-logout .win-commandimage {
+        background: url('/images/logout.png') no-repeat 50% 50%;
+    }
+    .appbar .win-commandimage {
+        color: #fff;
+    }
+    .appbar .win-commandring {
+        border-color: #fff;
+    }
+
+.win-menu {
+    background: #ff7404;
+    border: 0;
+}
+    .win-menu .win-command {
+        color: #fff;
+    }
+        .win-menu .win-command:hover {
+            background: #ff8900;
+            color: #fff;
+        }
+    
+
+@media screen and (-ms-view-state: snapped) {
+
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+
+}
+
+
+.clearfix {
+    clear: both;
+    overflow: hidden;
+}

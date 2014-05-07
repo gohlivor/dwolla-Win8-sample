@@ -1,0 +1,26 @@
+﻿.page_send_confirm section[role=main] {
+        -ms-grid-columns: 120px 250px 25px 770px;
+}
+
+.page_send_confirm .box {
+    width: 500px;
+    -ms-grid-column: 4;
+}
+
+#confirm {
+    padding: 20px;
+}
+    #confirm .avatars {
+
+    }
+    #confirm .desc {
+        font-size: 18px;
+        color: #ff7404;
+        text-align:center;
+    }
+    #confirm .actions {
+    }
+        #confirm .actions .left {
+            
+        }
+    

@@ -54,7 +54,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\review.css">
       <PackagePath>dwollaSDK\css\review.css</PackagePath>
-      <Modified>2014-03-24T14:45:13.414</Modified>
+      <Modified>2014-05-07T12:16:28.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\css\send.css">
       <PackagePath>dwollaSDK\css\send.css</PackagePath>
@@ -106,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\dwollaSDK\js\send.js">
       <PackagePath>dwollaSDK\js\send.js</PackagePath>
-      <Modified>2014-05-06T20:42:54.556</Modified>
+      <Modified>2014-05-06T20:45:52.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2014-05-06T20:43:17.413</Modified>
+      <Modified>2014-05-07T12:15:54.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\packages.config">
       <PackagePath>packages.config</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\ReadMe.txt">
       <PackagePath>ReadMe.txt</PackagePath>
-      <Modified>2014-03-24T14:45:11.736</Modified>
+      <Modified>2014-05-06T21:31:44.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chris\Documents\GitHub\dwolla-Win8-sample\DwollaInAppJS\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
